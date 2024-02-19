@@ -36,7 +36,7 @@ namespace MagicVilla_Web.Services
                     case SD.ApiType.PUT :
                         message.Method = HttpMethod.Put;
                         break;
-                    case SD.ApiType.DELETE:
+                    case SD.ApiType.DELETE :
                         message.Method = HttpMethod.Delete;
                         break;
                     default:
